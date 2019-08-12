@@ -1,6 +1,7 @@
 *{
 	
 	
+	width:auto;
 }
 
 .navbar{
@@ -23,11 +24,11 @@ color:grey;
 
 .intro-top{
 	font-family: 'Oswald', sans-serif;
-
+	overflow-x:hidden;
 	text-align: center;
 	color: white;
 	background-image: url("../Image/top_background.jpg");
-	width: max-width;
+	width: auto;
 	background-repeat: no-repeat;
 	background-position:50% 50%;
 	background-size: cover;
@@ -80,6 +81,7 @@ section{
 .intro-top h1{
 	padding:min-width;
 	padding:30px;
+	overflow: hidden;
 	padding-bottom: 20px;
 
 }
